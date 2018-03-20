@@ -10,12 +10,19 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="130dp"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    >
+
+
 
     <include layout="@layout/cardview1"></include>
     <include layout="@layout/cardview2"></include>
     <include layout="@layout/cardview3"></include>
 
-</LinearLayout>
 
+
+
+</LinearLayout>
+<include layout="@layout/cardview4"></include>
+<include layout="@layout/cardview5"></include>
 </LinearLayout>
